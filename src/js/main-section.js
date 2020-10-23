@@ -3,7 +3,7 @@ const $totalSection = document.querySelector(".main-total-section");
 const $sectionList = document.querySelectorAll(".main-section");
 
 const ITEM_NUM = $sectionList.length;
-const HEIGHT = screen.availHeight;
+const HEIGHT = window.innerHeight;
 const TOTAL_HEIGHT = HEIGHT * ITEM_NUM;
 const SPEED = 600;
 
