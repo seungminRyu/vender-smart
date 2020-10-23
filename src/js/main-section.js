@@ -9,6 +9,9 @@ const SPEED = 600;
 
 let curIndex = 0;
 
+let last_scroll_postition = 0;
+let ticking = false;
+
 $scrollBtn.addEventListener("click", () => {
     if (curIndex < ITEM_NUM - 1 ) {
         console.log("clicked")
@@ -16,4 +19,9 @@ $scrollBtn.addEventListener("click", () => {
         $totalSection.style.transform = `translate3d(0px, -${HEIGHT * (curIndex + 1)}px, 0px)`;
     }
     curIndex++;
+});
+
+window.addEventListener("scroll", (e) => {
+    last_scroll_postition = window.scrollY;
+    console.log(last_scroll_postition);
 });

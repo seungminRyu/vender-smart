@@ -2,7 +2,7 @@
 @import './nav-bar.css';
 
 body {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .main-container {
@@ -26,7 +26,7 @@ body {
 }
 
 .scroll-btn {
-  position: absolute;
+  position: fixed;
   width: 48px;
   height: 48px;
   top: 50%;
