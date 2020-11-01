@@ -109,14 +109,14 @@ a {
     right: 0;
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url('/static/img/intro/icon/ico_menu_white.svg');
+    background-image: url('static/img/intro/icon/ico_menu_white.svg');
     background-repeat: none;
     background-position: center center;
     background-size: contain;
   }
 
   .menu-btn--alt {
-    background-image: url('/static/img/intro/icon/ico_menu.svg');
+    background-image: url('static/img/intro/icon/ico_menu.svg');
   }
 
   .menu-active {
@@ -205,7 +205,7 @@ a {
   font-size: 18px;
   color: white;
   background: rgba(255, 255, 255, 0);
-  background-image: url('/static/img/intro/icon/ico_googleplay.png');
+  background-image: url('static/img/intro/icon/ico_googleplay.png');
   background-repeat: no-repeat;
   background-position: 12% center;
   padding-top: 2px;
@@ -344,7 +344,7 @@ a {
   }
 
   .intro__section:last-child {
-    background: url('/static/img/intro/img/slide-1.png') no-repeat center center;
+    background: url('static/img/intro/img/slide-1.png') no-repeat center center;
     background-size: cover;
   }
 
@@ -478,7 +478,7 @@ a {
     border: none;
     background: none;
     cursor: pointer;
-    background: url('/static/img/intro/icon/left-btn.svg') no-repeat center center;
+    background: url('static/img/intro/icon/left-btn.svg') no-repeat center center;
     background-size: 20px 20px;
   }
   .slider-btn--next {
@@ -491,7 +491,7 @@ a {
     border: none;
     background: none;
     cursor: pointer;
-    background: url('/static/img/intro/icon/right-btn.svg') no-repeat center center;
+    background: url('static/img/intro/icon/right-btn.svg') no-repeat center center;
     background-size: 20px 20px;
   }
 
