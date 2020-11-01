@@ -1,0 +1,7 @@
+<svg id="ic_genre" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path id="패스_422" data-name="패스 422" d="M0,0H20V20H0Z" fill="none"/>
+  <circle id="타원_100" data-name="타원 100" cx="7" cy="7" r="7" transform="translate(3 2.883)" fill="#a7a7aa"/>
+  <circle id="타원_101" data-name="타원 101" cx="1" cy="1" r="1" transform="translate(9 8.883)" fill="#fff"/>
+  <path id="패스_423" data-name="패스 423" d="M7,10.938A3.938,3.938,0,0,1,10.938,7" transform="translate(-1.297 -1.138)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+  <path id="패스_517" data-name="패스 517" d="M10.938,7A3.938,3.938,0,0,1,7,10.938" transform="translate(3.4 2.9)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+</svg>

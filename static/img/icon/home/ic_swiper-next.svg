@@ -1,0 +1,7 @@
+<svg id="btn_move-forword" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <circle id="bg_btn_move-forward" cx="18" cy="18" r="18" fill="#fff"/>
+  <g id="ic_move-forward" transform="translate(10 6)">
+    <rect id="bound" width="16" height="24" fill="none"/>
+    <path id="ic_move-back" d="M4168.835-6907.593a.73.73,0,0,1,0-1.033l6.752-6.752-6.752-6.752a.729.729,0,0,1,0-1.033.731.731,0,0,1,1.032,0l7.232,7.232a.729.729,0,0,1,.213.552.726.726,0,0,1-.212.555l-7.232,7.232a.726.726,0,0,1-.517.214A.722.722,0,0,1,4168.835-6907.593Z" transform="translate(-4164.314 6927.379)" fill="#a7a7aa"/>
+  </g>
+</svg>

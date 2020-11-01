@@ -1,0 +1,5 @@
+<svg id="ic_location" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="bound" width="20" height="20" fill="none"/>
+  <path id="패스_425" data-name="패스 425" d="M16.773,7.636c0,4.773-6.136,8.864-6.136,8.864S4.5,12.409,4.5,7.636a6.136,6.136,0,1,1,12.273,0Z" transform="translate(-0.5 1.5)" fill="#a7a7aa"/>
+  <path id="패스_426" data-name="패스 426" d="M18.5,13A2.5,2.5,0,1,1,16,10.5,2.5,2.5,0,0,1,18.5,13Z" transform="translate(-5.8 -3.9)" fill="#fff"/>
+</svg>

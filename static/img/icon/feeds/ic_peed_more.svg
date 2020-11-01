@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.998" height="19.998" viewBox="0 0 19.998 19.998">
+    <defs>
+        <style>
+            .cls-2{fill:#292929}
+        </style>
+    </defs>
+    <g id="ic_peed_more" transform="translate(1022 -4509)">
+        <path id="bound" fill="none" d="M0 0h20v20H0z" transform="translate(-1022 4509)"/>
+        <path id="패스_304" d="M16.741 15.328a1.427 1.427 0 1 0 1.427 1.427 1.426 1.426 0 0 0-1.427-1.427z" class="cls-2" data-name="패스 304" transform="translate(-1028.683 4502.243)"/>
+        <path id="패스_305" d="M5.927 15.328a1.427 1.427 0 1 0 1.427 1.427 1.426 1.426 0 0 0-1.427-1.427z" class="cls-2" data-name="패스 305" transform="translate(-1023.643 4502.243)"/>
+        <path id="패스_306" d="M27.583 15.328a1.427 1.427 0 1 0 1.427 1.427 1.426 1.426 0 0 0-1.427-1.427z" class="cls-2" data-name="패스 306" transform="translate(-1033.735 4502.243)"/>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="8" viewBox="0 0 17 8">
+    <g id="icon-back" transform="rotate(-90 4 4)">
+        <path id="Bounds" fill="none" d="M0 0H8V17H0z"/>
+        <path id="_" fill="#292929" d="M7.262 6.467L6.2 5.4 1.632 9.967 6.2 14.535l1.063-1.067-3.5-3.5z" data-name="&lt;" transform="translate(-.503 -1.663)"/>
+    </g>
+</svg>

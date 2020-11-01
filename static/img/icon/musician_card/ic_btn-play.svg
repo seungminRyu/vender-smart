@@ -1,0 +1,7 @@
+<svg id="ic_play--sm" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="bg" fill="rgba(43,43,43,0.5)" stroke="#cbcbcb" stroke-width="1">
+    <circle cx="16" cy="16" r="16" stroke="none"/>
+    <circle cx="16" cy="16" r="15.5" fill="none"/>
+  </g>
+  <path id="play" d="M5.413.262a.581.581,0,0,1,.972,0l5.317,8.1a.581.581,0,0,1-.486.9H.582a.581.581,0,0,1-.486-.9Z" transform="translate(21.926 10.201) rotate(90)" fill="#fff"/>
+</svg>
