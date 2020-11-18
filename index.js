@@ -2,9 +2,9 @@ const $btn = document.getElementById("btn");
 const REDIRECT_URL = "https://seungminryu.github.io/IndexPage_practice/redirect";
 var IMP = window.IMP;
 
-async function arequestPay() {
-    await IMP.init('imp85600338');
-    await IMP.request_pay({
+function requestPay() {
+    IMP.init('imp85600338');
+    IMP.request_pay({
         pg : 'kakaopay',
         pay_method : 'vbank',
         merchant_uid : 'merchant_' + new Date().getTime(),
@@ -28,10 +28,10 @@ async function arequestPay() {
         }
 
         alert(msg);
+        window.location.href = REDIRECT_URL;
     });
 }
 
-$btn.addEventListener("click", async function pay() {
-    await requestPay();
-    window.location.href = REDIRECT_URL;
+$btn.addEventListener("click", () => {
+    requestPay();
 });
