@@ -11,7 +11,6 @@ IMP.request_pay({
     buyer_tel : '010-1234-5678',
     buyer_addr : '서울특별시 강남구 삼성동',
     buyer_postcode : '123-456',
-    m_redirect_url : "https://seungminryu.github.io/IndexPage_practice/redirect"
 }, function(rsp) {
     if ( rsp.success ) {
         var msg = '결제가 완료되었습니다.';
@@ -25,4 +24,5 @@ IMP.request_pay({
     }
 
     alert(msg);
+    window.location.href = "https://seungminryu.github.io/IndexPage_practice/redirect"
 });
