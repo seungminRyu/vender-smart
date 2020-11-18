@@ -31,7 +31,7 @@ async function arequestPay() {
     });
 }
 
-$btn.addEventListener("click", async () => {
+$btn.addEventListener("click", async function pay() {
     await requestPay();
     window.location.href = REDIRECT_URL;
 });
