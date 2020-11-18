@@ -1,8 +1,7 @@
 const $btn = document.getElementById("btn");
+var IMP = window.IMP;
 
 function requestPay() {
-    var IMP = window.IMP;
-    
     IMP.init('imp85600338');
     IMP.request_pay({
         pg : 'kakaopay',
