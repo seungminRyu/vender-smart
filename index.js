@@ -1,4 +1,5 @@
 const $btn = document.getElementById("btn");
+const REDIRECT_URL = "https://seungminryu.github.io/IndexPage_practice/redirect";
 var IMP = window.IMP;
 
 function requestPay() {
@@ -32,5 +33,5 @@ function requestPay() {
 
 $btn.addEventListener("click", async () => {
     await requestPay();
-    window.location.href = "https://seungminryu.github.io/IndexPage_practice/redirect";
+    window.location.href = REDIRECT_URL;
 });
