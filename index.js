@@ -30,7 +30,7 @@ function requestPay() {
     });
 }
 
-$btn.addEventListener("click", () => {
-    requestPay();
+$btn.addEventListener("click", async () => {
+    await requestPay();
     window.location.href = "https://seungminryu.github.io/IndexPage_practice/redirect";
 });
