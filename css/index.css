@@ -2,25 +2,24 @@
 @import './style.css';
 
 main {
-  margin-top: 20vh;
+  padding-top: 20vh;
   text-align: center;
   color: white;
-  font-family: NanumSquareRoundEB;
+  font-family: NanumSquareRoundB;
 }
 
 h1 {
   font-size: 48px;
-  margin-top: 4px;
+  margin-top: 8px;
+  font-family: NanumSquareRoundEB;
 }
 
 h5 {
   font-size: 16px;
-  font-family: NanumSquareRoundB;
 }
 
 p {
   font-size: 16px;
-  font-family: NanumSquareRoundB;
   margin-top: 64px;
 }
 
@@ -31,7 +30,6 @@ a {
 
 button {
   font-size: 16px;
-  font-family: NanumSquareRoundB;
   padding: 18px 95px;
   border: none;
   border-radius: 12px;
