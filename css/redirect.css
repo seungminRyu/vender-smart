@@ -50,3 +50,13 @@ h2 {
     transform: translateY(0);
   }
 }
+
+.code {
+  display: flex;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 30px;
+  background-color: #fcd747;
+  border-radius: 15px;
+  padding: 14px 4px 12px 34px;
+}
