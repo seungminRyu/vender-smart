@@ -14,3 +14,11 @@ body {
   background: linear-gradient(60deg, #e6faff, #52c7e3);
   font-family: NanumSquareRoundB, NanumSquareRoundEB, NanumSquareRound;
 }
+
+.btn {
+  font-size: 16px;
+  padding: 18px 95px;
+  border: none;
+  border-radius: 12px;
+  background-color: #fcd747;
+}

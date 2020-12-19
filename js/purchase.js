@@ -1,4 +1,4 @@
-const $btn = document.getElementById("btn");
+const $btn = document.querySelector(".btn");
 const REDIRECT_URL = "https://seungminryu.github.io/SmartMaskVender/redirect";
 var IMP = window.IMP;
 

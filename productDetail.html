@@ -6,20 +6,33 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
     <script type="text/javascript" src="https://service.iamport.kr/js/iamport.payment-1.1.5.js"></script>
     <script type="text/javascript" src="js/purchase.js" defer></script>
+    <link rel="stylesheet" href="css/productDetail.css">
     <title>상품확인</title>
 </head>
 <body>
-    <h1>상품확인</h1>
-    <span class="type"></span>
-    <h3 class="name"></h3>
-    <span class="price">1000원</span>
-    <img class="product-img" src="" alt="제품이미지" style="width: 200px;">
-    <button id="btn">결제하기</button>
+    <main>
+        <h1 class="menu-title">상품확인</h1>
+        <div class="product-des">
+            <span class="type"></span>
+            <div class="wrapper">
+                <h3 class="name"></h3>
+                <div>
+                    <span class="price">1000원</span>
+                </div>
+            </div>
+            <div class="product-img">
+                <img class="img" src="" alt="제품이미지" style="width: 210px;">
+            </div>
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn">결제하기</button>
+        </div>
+    </main>
 </body>
 <script>
     const $productName = document.querySelector(".name");
     const $productType = document.querySelector(".type");
-    const $productImg = document.querySelector(".product-img");
+    const $productImg = document.querySelector(".img");
 
     temp = location.href.split("?");
     productType = temp[1].split("=")[1];

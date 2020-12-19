@@ -17,6 +17,7 @@ main {
   box-sizing: border-box;
   border-radius: 28px;
   background-color: white;
+  cursor: pointer;
   margin: 32px auto;
   padding: 24px 28px;
 }
@@ -26,7 +27,7 @@ main {
 }
 
 .type {
-  color: rgba(0, 0, 0, 0.603);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .name {
