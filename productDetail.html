@@ -13,21 +13,25 @@
     <span class="type"></span>
     <h3 class="name"></h3>
     <span class="price">1000원</span>
-    <img class="product-img" src="" alt="">
+    <img class="product-img" src="" alt="제품이미지" style="width: 200px;">
     <button id="btn">결제하기</button>
 </body>
 <script>
     const $productName = document.querySelector(".name");
     const $productType = document.querySelector(".type");
+    const $productImg = document.querySelector(".product-img");
+
     temp = location.href.split("?");
     productType = temp[1].split("=")[1];
 
     if (productType === "type1") {
         $productType.innerHTML = "제품 1";
         $productName.innerHTML = "황사마스크<br>KF80 [대형]";
+        $productImg.src = "img/kf80.png";
     } else {
         $productType.innerHTML = "제품 2";
         $productName.innerHTML = "황사마스크<br>KF94 [대형]";
+        $productImg.src = "img/kf94.png";
     }
 </script>
 </html>
