@@ -1,0 +1,39 @@
+@import './reset.css';
+@import './style.css';
+
+main {
+  margin-top: 20vh;
+  text-align: center;
+  color: white;
+  font-family: NanumSquareRoundEB;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 4px;
+}
+
+h5 {
+  font-size: 16px;
+  font-family: NanumSquareRoundB;
+}
+
+p {
+  font-size: 16px;
+  font-family: NanumSquareRoundB;
+  margin-top: 64px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 35vh;
+}
+
+button {
+  font-size: 16px;
+  font-family: NanumSquareRoundB;
+  padding: 18px 95px;
+  border: none;
+  border-radius: 12px;
+  background-color: #fcd747;
+}

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('../font/NanumSquareRoundR.ttf') format('truetype');
+  font-family: 'NanumSquareRoundEB';
+  src: url('../font/NanumSquareRoundEB.ttf');
+  font-family: 'NanumSquareRoundB';
+  src: url('../font/NanumSquareRoundB.ttf');
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(60deg, #e6faff, #52c7e3);
+  font-family: NanumSquareRound, NanumSquareRoundEB, NanumSquareRoundB;
+}

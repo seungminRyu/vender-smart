@@ -9,6 +9,11 @@ h2 {
   text-align: center;
 }
 
+p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
 .loading-box {
   margin: 0 auto;
 }
