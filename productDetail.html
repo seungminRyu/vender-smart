@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+    <script type="text/javascript" src="https://service.iamport.kr/js/iamport.payment-1.1.5.js"></script>
+    <script type="text/javascript" src="js/purchase.js" defer></script>
+    <title>상품확인</title>
+</head>
+<body>
+    <h1>상품확인</h1>
+    <span class="type"></span>
+    <h3 class="name"></h3>
+    <span class="price">1000원</span>
+    <img class="product-img" src="" alt="">
+    <button id="btn">결제하기</button>
+</body>
+<script>
+    const $productName = document.querySelector(".name");
+    const $productType = document.querySelector(".type");
+    temp = location.href.split("?");
+    productType = temp[1].split("=")[1];
+
+    if (productType === "type1") {
+        $productType.innerHTML = "제품 1";
+        $productName.innerHTML = "황사마스크<br>KF80 [대형]";
+    } else {
+        $productType.innerHTML = "제품 2";
+        $productName.innerHTML = "황사마스크<br>KF94 [대형]";
+    }
+</script>
+</html>
