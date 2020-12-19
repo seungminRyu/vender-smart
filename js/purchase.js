@@ -1,5 +1,5 @@
 const $btn = document.getElementById("btn");
-const REDIRECT_URL = "https://seungminryu.github.io/IndexPage_practice/redirect";
+const REDIRECT_URL = "redirect.html";
 var IMP = window.IMP;
 
 function requestPay() {
