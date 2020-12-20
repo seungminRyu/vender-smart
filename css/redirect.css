@@ -4,7 +4,6 @@
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-self: center;
 }
 
@@ -29,7 +28,7 @@ p {
 }
 
 .loading-box {
-  margin: 0 auto;
+  margin: 150px auto 0;
 }
 
 .loading-dot {
