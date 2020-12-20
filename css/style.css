@@ -37,4 +37,14 @@ main {
   background-color: #fcd747;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
   padding: 18px 0;
+  animation: show 0.6s ease-in-out forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
 }
