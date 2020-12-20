@@ -8,13 +8,15 @@
 </head>
 <body>
     <main>
-        <div class="loading-box">
-            <div class="loading-dot"></div>
-            <div class="loading-dot"></div>
-            <div class="loading-dot"></div>
-            <div class="loading-dot"></div>
+        <div class="wrapper">
+            <div class="loading-box">
+                <div class="loading-dot"></div>
+                <div class="loading-dot"></div>
+                <div class="loading-dot"></div>
+                <div class="loading-dot"></div>
+            </div>
+            <h2>결제코드를<br>생성 중 입니다.</h2>
         </div>
-        <h2>결제코드를 생성 중 입니다.</h2>
     </main>
 </body>
 <script>
@@ -27,8 +29,15 @@
             <span class="code">2534</span>
             <p>입니다.</p>
             </div>
+            <div class="btn-wrapper">    
+            <button class="btn" onclick="onClickBtn()">홈으로 돌아가기</button>
+            </div>
             `;
         console.log("time out");
     }, 3000);
+
+    function onClickBtn() {
+        location.href = "index.html";
+    }
 </script>
 </html>

@@ -11,7 +11,14 @@
         <h5>모바일 결제 마스크자판기</h5>
         <h1>벤더 스마트</h1>
         <p>임베디드 설계 및 실험<br>텀프로젝트 - 11조</p>
-        <a href="product.html"><button class="btn">마스크 구매하기</button></a>
+        <div class="btn-wrapper">    
+            <button class="btn" onclick="onClickBtn()">마스크 구매하기</button>
+        </div>
     </main>
 </body>
+<script>
+    function onClickBtn() {
+        location.href = "product.html";
+    }
+</script>
 </html>

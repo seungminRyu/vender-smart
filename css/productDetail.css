@@ -1,18 +1,14 @@
 @import './reset.css';
 @import './style.css';
 
-main {
-  padding: 60px 30px;
-}
-
 .menu-title {
-  font-size: 48px;
-  font-family: NanumSquareRoundEB;
+  font-size: 36px;
+  font-weight: 800;
   color: white;
 }
 
 .product-des {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .type {
@@ -26,14 +22,14 @@ main {
 }
 
 .name {
-  font-size: 32px;
+  font-size: 28px;
   color: white;
 }
 
 .price {
   display: flex;
-  font-size: 22px;
-  padding: 8px 15px;
+  font-size: 20px;
+  padding: 6px 12px;
   background-color: #fcd747;
   border-radius: 6px;
 }
@@ -47,17 +43,4 @@ main {
   background-color: white;
   border-radius: 24px;
   margin-top: 16px;
-}
-
-.btn-wrapper {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  left: 0;
-  bottom: 60px;
-}
-
-.btn {
-  width: 300px;
 }
