@@ -40,7 +40,7 @@ main {
   transition: 0.1s;
 }
 
-.btn:active {
+.btn-active {
   transform: scale(0.95);
 }
 

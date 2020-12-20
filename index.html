@@ -18,6 +18,13 @@
 </body>
 <script>
     function onClickBtn() {
+        const btn = document.querySelector(".btn");
+        btn.addEventListener("touchstart", (e) => {
+            btn.classList.toggle("btn-active");
+        });
+        btn.addEventListener("touchend", (e) => {
+            btn.classList.toggle("btn-active");
+        });
         location.href = "product.html";
     }
 </script>
