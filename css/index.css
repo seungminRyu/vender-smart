@@ -5,13 +5,12 @@ main {
   padding-top: 20vh;
   text-align: center;
   color: white;
-  font-family: NanumSquareRoundB;
 }
 
 h1 {
   font-size: 48px;
+  font-weight: 800;
   margin-top: 8px;
-  font-family: NanumSquareRoundEB;
 }
 
 h5 {
