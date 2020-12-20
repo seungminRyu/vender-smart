@@ -27,7 +27,8 @@ p {
   font-weight: bold;
 }
 
-.loading-box {
+.loading-box,
+.code-wrapper {
   margin: 120px auto 0;
 }
 
@@ -69,7 +70,7 @@ p {
   }
 }
 
-.code {
+.code-box {
   display: flex;
   font-size: 36px;
   font-weight: bold;
@@ -78,4 +79,20 @@ p {
   border-radius: 16px;
   padding: 14px 4px 12px 34px;
   margin: 16px 0;
+}
+
+.code {
+  opacity: 0;
+  animation: fade-in 0.7s ease-in-out 0.5s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
 }

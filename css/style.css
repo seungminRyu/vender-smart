@@ -35,5 +35,6 @@ main {
   border: none;
   border-radius: 12px;
   background-color: #fcd747;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
   padding: 18px 0;
 }
