@@ -27,12 +27,16 @@
         <div class="btn-wrapper">
             <button class="btn">카카오페이로 결제하기</button>
         </div>
+        <div class="modal">
+            <img class="img" src="" alt="제품이미지" style="width: 95%; object-fit: contain;">
+        </div>
     </main>
 </body>
 <script>
     const $productName = document.querySelector(".name");
     const $productType = document.querySelector(".type");
-    const $productImg = document.querySelector(".img");
+    const $productImg = document.querySelectorAll(".img");
+    const $modal = document.querySelector(".modal");
 
     temp = location.href.split("?");
     productType = temp[1].split("=")[1];
@@ -40,11 +44,21 @@
     if (productType === "type1") {
         $productType.innerHTML = "제품 1";
         $productName.innerHTML = "황사마스크<br>KF80 [대형]";
-        $productImg.src = "img/kf80.png";
+        $productImg[0].src = "img/kf80.png";
+        $productImg[1].src = "img/kf80.png";
     } else {
         $productType.innerHTML = "제품 2";
         $productName.innerHTML = "황사마스크<br>KF94 [대형]";
-        $productImg.src = "img/kf94.png";
+        $productImg[0].src = "img/kf94.png";
+        $productImg[1].src = "img/kf94.png";
     }
+
+    // 모달 이벤트
+    $productImg[0].addEventListener("click", () => {
+        $modal.classList.toggle("modal-active");
+    });
+    $modal.addEventListener("click", () => {
+        $modal.classList.toggle("modal-active");
+    });
 </script>
 </html>
