@@ -1,3 +1,7 @@
+const $productName = document.querySelector(".name");
+const $productType = document.querySelector(".type");
+const $productImg = document.querySelectorAll(".img");
+const $modal = document.querySelector(".modal");
 const $btn = document.querySelector(".btn");
 const REDIRECT_URL = "https://seungminryu.github.io/SmartMaskVender/redirect";
 var IMP = window.IMP;
@@ -28,10 +32,37 @@ function requestPay() {
         }
 
         alert(msg);
-        window.location.href = REDIRECT_URL;
+        window.location.href = REDIRECT_URL + `?type=${productType}`;
     });
 }
 
-$btn.addEventListener("click", () => {
-    requestPay();
-});
+function init() {
+    temp = location.href.split("?")[1];
+    productType = temp.split("=")[1];
+
+    if (productType === "type1") {
+        $productType.innerHTML = "제품 1";
+        $productName.innerHTML = "황사마스크<br>KF80 [대형]";
+        $productImg[0].src = "img/kf80.png";
+        $productImg[1].src = "img/kf80.png";
+    } else {
+        $productType.innerHTML = "제품 2";
+        $productName.innerHTML = "황사마스크<br>KF94 [대형]";
+        $productImg[0].src = "img/kf94.png";
+        $productImg[1].src = "img/kf94.png";
+    }
+
+    // 모달 이벤트
+    $productImg[0].addEventListener("click", () => {
+        $modal.classList.toggle("modal-active");
+    });
+    $modal.addEventListener("click", () => {
+        $modal.classList.toggle("modal-active");
+    });
+
+    $btn.addEventListener("click", () => {
+        requestPay();
+    });
+}
+
+init();

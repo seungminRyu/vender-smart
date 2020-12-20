@@ -21,12 +21,31 @@
 </body>
 <script>
     const $main = document.querySelector("main");
+    let targetCode;
+
+    if (null === sessionStorage.getItem("maskCode1")) {
+        sessionStorage.setItem("maskCode1", JSON.stringify(["0000", "0000", "0000", 1234, 2222]));
+        sessionStorage.setItem("maskCode2", JSON.stringify(["0000", "0000", "0000", 1369, 3333]));
+    }
+
+    temp = location.href.split("?")[1];
+    productType = temp.split("=")[1];
+
+    if (productType === "type1") {
+        arr = JSON.parse(sessionStorage.getItem("maskCode1"));
+        targetCode = arr.pop();
+        sessionStorage.setItem("maskCode1", JSON.stringify(arr));
+    } else {
+        arr = JSON.parse(sessionStorage.getItem("maskCode2"));
+        targetCode = arr.pop();
+        sessionStorage.setItem("maskCode2", JSON.stringify(arr));
+    }
 
     setTimeout(() => {
         $main.innerHTML = 
             `<div class="code-wrapper">
             <p>결제코드는</p>
-            <div class="code-box"><span class="code">2534</span></div>
+            <div class="code-box"><span class="code">${targetCode}</span></div>
             <p>입니다.</p>
             </div>
             <div class="btn-wrapper">    
