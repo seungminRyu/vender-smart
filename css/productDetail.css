@@ -5,12 +5,12 @@
   font-size: 36px;
   font-weight: 800;
   color: white;
-  animation: show 0.6s ease-in-out forwards;
 }
 
 .product-des {
   margin-top: 60px;
-  animation: show 0.6s ease-in-out forwards;
+  opacity: 0;
+  animation: show 0.4s ease-in-out forwards;
 }
 
 .type {

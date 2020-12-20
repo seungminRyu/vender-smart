@@ -5,7 +5,6 @@
   font-size: 36px;
   font-weight: 800;
   color: white;
-  animation: show 0.8s ease-in-out forwards;
 }
 
 .product-box {
@@ -13,14 +12,20 @@
   box-sizing: border-box;
   border-radius: 28px;
   background-color: white;
+  opacity: 0;
   cursor: pointer;
   margin: 16px auto;
   padding: 24px 28px;
-  animation: show 0.8s ease-in-out forwards;
+  animation: show 0.3s ease-in-out forwards;
 }
 
 #type1 {
   margin-top: 100px;
+  animation-delay: 0.1s;
+}
+
+#type2 {
+  animation-delay: 0.2s;
 }
 
 .type {
