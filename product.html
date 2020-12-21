@@ -13,15 +13,33 @@
             <span class="type">제품 1</span>
             <h3 class="name">황사마스크<br>KF80 [대형]</h3>
             <span class="price">1000원</span>
+            <div class="soldOut-box">
+                <span class="sold-out">품절</span>
+            </div>
         </div>
         <div class="product-box" id="type2" onclick="onClickBox(id)">
             <span class="type">제품 2</span>
             <h3 class="name">황사마스크<br>KF94 [대형]</h3>
             <span class="price">1000원</span>
+            <div class="soldOut-box">
+                <span class="sold-out">품절</span>
+            </div>
         </div>
     </main>
 </body>
 <script>
+    const $soldOutBoxs = document.querySelectorAll(".soldOut-box");
+    
+    const maskStock1 = JSON.parse(sessionStorage.getItem("maskCode1")).length;
+    const maskStock2 = JSON.parse(sessionStorage.getItem("maskCode2")).length;
+
+    if (maskStock1 < 4) {
+        $soldOutBoxs[0].classList.add("soldOut-active");
+    }
+    if (maskStock2 < 4) {
+        $soldOutBoxs[1].classList.add("soldOut-active");
+    }
+
     function onClickBox(id) {
         typeValue = id;
         location.href = `productDetail.html?type=${typeValue}`;

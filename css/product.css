@@ -46,3 +46,25 @@
   border-radius: 6px;
   margin-top: 14px;
 }
+
+.soldOut-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sold-out {
+  font-size: 28px;
+  color: white;
+}
+
+.soldOut-active {
+  display: flex;
+}
