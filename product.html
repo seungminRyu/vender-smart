@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/product.js" defer></script>
     <link rel="stylesheet" href="css/product.css">
     <title>제품선택</title>
 </head>
@@ -27,22 +28,4 @@
         </div>
     </main>
 </body>
-<script>
-    const $soldOutBoxs = document.querySelectorAll(".soldOut-box");
-    
-    const maskStock1 = JSON.parse(sessionStorage.getItem("maskCode1")).length;
-    const maskStock2 = JSON.parse(sessionStorage.getItem("maskCode2")).length;
-
-    if (maskStock1 < 4) {
-        $soldOutBoxs[0].classList.add("soldOut-active");
-    }
-    if (maskStock2 < 4) {
-        $soldOutBoxs[1].classList.add("soldOut-active");
-    }
-
-    function onClickBox(id) {
-        typeValue = id;
-        location.href = `productDetail.html?type=${typeValue}`;
-    }
-</script>
 </html>
